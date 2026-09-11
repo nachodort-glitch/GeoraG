@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Geora · Descubre el mundo",
   description:
     "Descubre el mundo, país a país. Banderas, capitales, mapas y expediciones.",
-  other: {
+  verification: { google: "OG9D66SlwknFRMtEgEf0zVnHkbQAH1oiANKQveNkX3o" }, other: {
     "codex-preview": "development",
   },
   icons: {
