@@ -99,7 +99,7 @@ function flag(c: Country, hidden = false) {
   return (
     <img
       className="country-flag"
-      src={`/flags/${c.code}.svg`}
+      src={`/flags/${c.code.toLowerCase()}.svg`}
       alt={
         hidden
           ? "Bandera del país que debes identificar"
