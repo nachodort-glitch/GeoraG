@@ -23,7 +23,7 @@ import {
   MapPinned,
   Route,
 } from "lucide-react";
-import WorldMap from "@/components/world-map";
+import WorldMap from "@/components/world-map"; import flags from "@/lib/flags.json";
 import {
   Dialog,
   DialogContent,
