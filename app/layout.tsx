@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es"><head><meta name="google-site-verification" content="OG9D66SlwknFRMtEgEf0zVnHkbQAH1oiANKQveNkX3o" /></head>
       <body className="antialiased">{children}</body>
     </html>
   );
