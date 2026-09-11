@@ -43,7 +43,7 @@ import {
   type Mode,
   type Skill,
   type Country,
-} from "@/lib/content";`nimport flags from "@/lib/flags.json";
+} from "@/lib/content";
 import {
   emptyStore,
   createGame,
@@ -99,7 +99,7 @@ function flag(c: Country, hidden = false) {
   return (
     <img
       className="country-flag"
-      src={`data:image/svg+xml;utf8,${encodeURIComponent(flags[c.code as keyof typeof flags])}`}
+      src={`/flags/${c.code}.svg`}
       alt={
         hidden
           ? "Bandera del país que debes identificar"
@@ -479,7 +479,7 @@ export default function Home() {
                 </div>
               )
             )}
-            <div className="section-title">
+            <div id="jugar" className="section-title">
               <h2>¿Cómo quieres explorar?</h2>
               <span>Cuatro maneras de descubrir el mundo</span>
             </div>
@@ -1292,5 +1292,3 @@ export default function Home() {
     </>
   );
 }
-
-
